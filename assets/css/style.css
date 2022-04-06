@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background: url(../img/112.png);
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(24, 24, 24, 0.13);
+}
+
+.img-imc {
+    width: 100%;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+}
+
+form input:focus {
+    outline: 1px solid #555555;
+}
+
+form button {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #2f65a3 0%, #0f74da  51%, #179de0  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;         
+    border-radius: 10px;
+    display: block;
+}
+
+form button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragrafo-resultado, .bad {
+    background: #10be53;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.bad {
+    background: #df2c0c;
+}

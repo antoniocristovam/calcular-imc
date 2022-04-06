@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Calcular IMC</h1>
+        <img class="img-imc" src="assets/img/obesidade-imc.png" alt="">
+        <h2>Calcule seu IMC</h2>
+        <form action="/" id="form" method="post">
+            <label for="peso">Peso:</label>
+            <input placeholder="Insira seu peso em Kg" type="text" id="peso" name="peso">
+
+            <label for="altura">Altura:</label>
+            <input placeholder="Insira altura em Metros" type="text" id="altura" name="altura">
+
+            <div id="resultado">
+            </div>
+
+            <button type="submit">CALCULAR</button>
+        </form>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
