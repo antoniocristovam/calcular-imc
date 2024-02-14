@@ -18,4 +18,4 @@
 
 <img src="https://github.com/antoniocristovam/calcular-imc/blob/main/assets/img/imc-img-2.png?raw=true" alt="">
 
-## Vai mostrar na tela o seu IMC, e automaticamente vai calcular se você estar abaixo ou acima do peso.
+## Vai mostrar na tela o seu IMC, e automaticamente vai calcular se você estar abaixo, no peso ideal ou acima do peso.
